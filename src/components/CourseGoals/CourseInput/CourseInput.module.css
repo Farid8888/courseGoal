@@ -1,0 +1,46 @@
+.form{
+    width: 30rem;
+    max-width:95% ;
+    padding: 2.5rem;
+    margin:3rem auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    height: 30vh;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.goal{
+    height: 1.6rem;
+    border:1px solid #ccc;
+    padding: 0 0.25rem;
+}
+
+.goalError{
+    background-color: rgb(221, 140, 140);
+    border:1px solid red
+}
+
+
+.text{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: inherit;
+}
+
+.error{
+    color: red;
+}
+
+.input input:focus{
+    background-color: rgb(241, 181, 233);
+    border-color: violet;
+    outline: none;
+}
+
+

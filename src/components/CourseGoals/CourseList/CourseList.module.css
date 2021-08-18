@@ -1,0 +1,9 @@
+.courseList{
+    padding: 2.5rem;
+    margin:1rem auto;
+    width: 40rem;
+}
+
+.empty{
+    text-align: center;
+}
