@@ -5,8 +5,16 @@
     padding:7px 20px;
     border: none;
     cursor: pointer;
+    width: 100%;
 }
 
 .btn:hover{
     background-color: #b92488;
+}
+
+
+@media(min-width:700px){
+    .btn{
+        width: auto;
+    }
 }
